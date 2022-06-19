@@ -6,13 +6,15 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Awaken stuff.
+# Inherit some common lessaosp stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+$(call inherit-product, vendor/lessaosp/config/common_full_phone.mk)
+LESSAOSP_BUILD_TYPE := OFFICIAL
+LESSAOSP_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := awaken_beryllium
+PRODUCT_NAME := lessaosp_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1

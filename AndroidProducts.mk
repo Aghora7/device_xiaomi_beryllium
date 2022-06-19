@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_beryllium.mk
+    $(LOCAL_DIR)/lessaosp_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_beryllium-user \
-    awaken_beryllium-userdebug \
-    awaken_beryllium-eng
+    lessaosp_beryllium-user \
+    lessaosp_beryllium-userdebug \
+    lessaosp_beryllium-eng
